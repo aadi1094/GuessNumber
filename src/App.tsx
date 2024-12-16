@@ -24,7 +24,6 @@ function App() {
 
   const checkWin = (index:number) => {
     setChances(chances+1)
-    console.log(winner);
     
     if(chances > MAX_CHANCES){
       return;
